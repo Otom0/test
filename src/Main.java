@@ -2,12 +2,13 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        callSum(5, 2);
+       int val = callSum(5, 2);
+        System.out.println(val);
 
     }
-    static void  callSum(int a, int b){
+    static int  callSum(int a, int b){
         int sum = a * b;
-        System.out.println(sum);
+        return sum;
     }
 
 }
