@@ -1,14 +1,11 @@
-import java.sql.SQLOutput;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
-       int val = callSum(5, 2);
-        System.out.println(val);
 
-    }
-    static int  callSum(int a, int b){
-        int sum = a * b;
-        return sum;
-    }
+    public static void main(String args[]) {
 
+        String str = "Java";
+        char c = str.charAt(0);
+        System.out.println(c);
+    }
 }
